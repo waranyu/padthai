@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 body, html {
@@ -17,13 +18,89 @@ body, html {
 }
 </style>
 <body class="w3-theme-l5">
-    <!-- Logo Text -->
-    <div class="w3-display-container w3-opacity-min" id="head">
-    <img src="1.JPG" alt="JPG" style="width:100%;min-height:350px;max-height:600px;">
-      <div class="w3-display-middle" style="white-space:nowrap;">
-        <span class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity">- ผัดไท กระเพาะปลา ไทยอาคาร -</span>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-row ">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+      <a href="https://waranyu.github.io/Home/" class=" w3-button "><i class="fa fa-home"></i> หน้าแรก</a>
       </div>
-    </div>
+
+
+
+       <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+        <button class=" w3-button  " title="More"><i class="fa fa-cutlery"></i> ร้านอาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">ครัว ปะ-หยัด</a>
+          <a href="https://waranyu.github.io/hokkaido/" class="w3-bar-item w3-button">ฮอกไกโด</a>
+          <a href="https://waranyu.github.io/padthai/" class="w3-bar-item w3-button">ผัดไทย กระเพาะปลา ไทยอาคาร</a>
+          <a href="https://waranyu.github.io/joke/" class="w3-bar-item w3-button">โจ๊กหม้อเดิบ</a>
+          <a href="https://waranyu.github.io/chabura/" class="w3-bar-item w3-button">ติ่มซำชาบูระ</a>
+        </div>
+      </div>
+
+
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar w3-padding">
+        <button class="w3-button" title="More"><i class="fa fa-th"></i> หมวดหมู่อาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="https://waranyu.github.io/snack/" class="w3-bar-item w3-button">อาหารว่าง</a>
+          <a href="https://waranyu.github.io/main-course/" class="w3-bar-item w3-button">อาหารจานหลัก</a>
+          <a href="https://waranyu.github.io/Dessert/" class="w3-bar-item w3-button">เครื่องดื่มและของหวาน</a>
+         </div>
+      </div>
+
+  </div>
+
+  </div>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-row ">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+      <a href="https://waranyu.github.io/Home/" class=" w3-button "><i class="fa fa-home"></i> หน้าแรก</a>
+      </div>
+
+
+
+       <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar  w3-padding">
+        <button class=" w3-button  " title="More"><i class="fa fa-cutlery"></i> ร้านอาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button">ครัว ปะ-หยัด</a>
+          <a href="https://waranyu.github.io/hokkaido/" class="w3-bar-item w3-button">ฮอกไกโด</a>
+          <a href="https://waranyu.github.io/padthai/" class="w3-bar-item w3-button">ผัดไทย กระเพาะปลา ไทยอาคาร</a>
+          <a href="https://waranyu.github.io/joke/" class="w3-bar-item w3-button">โจ๊กหม้อเดิบ</a>
+          <a href="https://waranyu.github.io/chabura/" class="w3-bar-item w3-button">ติ่มซำชาบูระ</a>
+        </div>
+      </div>
+
+
+
+      <div class="w3-dropdown-hover w3-hide-small w3-third tablink w3-bottombar w3-padding">
+        <button class="w3-button" title="More"><i class="fa fa-th"></i> หมวดหมู่อาหาร <i class="fa fa-caret-down"></i> </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="https://waranyu.github.io/snack/" class="w3-bar-item w3-button">อาหารว่าง</a>
+          <a href="https://waranyu.github.io/main-course/" class="w3-bar-item w3-button">อาหารจานหลัก</a>
+          <a href="https://waranyu.github.io/Dessert/" class="w3-bar-item w3-button">เครื่องดื่มและของหวาน</a>
+         </div>
+      </div>
+
+  </div>
+
+  </div>
+    <!-- Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <img src="1.jpg" alt="JPG" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">- ผัดไท กระเพาะปลา ไทยอาคาร -</span>
+  </div>
+</div>
 <!-- Page Container -->
 <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
   <!-- The Grid -->
@@ -34,13 +111,18 @@ body, html {
       <div class="w3-card-2 w3-round w3-white">
         <div class="w3-container">
          <h4 class="w3-center">ผัดไท กระเพาะปลา ไทยอาคาร</h4>
-         <p class="w3-center"><img src="8.JPG" alt="Forest" style="width:100%;">
+         <p class="w3-center"><img src="8.jpg" alt="Forest" style="width:100%;">
          <hr>
          <p><i class="fa fa-male fa-fw w3-margin-right w3-text-theme"></i> เจ้าของร้าน : พี่เจน </p>
       </div>
       </div>
       <br>
-
+      <!-- Accordion -->
+            <div class="w3-card-2 w3-round">
+              <div class="w3-white">
+                <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i><a href="https://waranyu.github.io/aboutus/." class="w3-bar-item w3-button">About Us</a></button>
+              </div>
+            </div>
     <!-- End Left Column -->
     </div>
 
@@ -62,10 +144,10 @@ body, html {
         <h4>กระเพาะปลาน้ำแดง</h4><br>
         <hr class="w3-clear">
         <p>มาร้านนี้ต้องสั่ง เพราะนี่คือเมนูแนะนำชูโรงของทางร้าน ความเป็นเอกลักษณ์ของกระเพาะปลา ที่อิสลามก็สามารถทานได้ น้ำกระเพาะปลาที่เข้มข้นหนืดๆชวนให้น้ำลายไหล และรสชาติกลมกล่อมที่ได้สัมผัส เหมาะสมแล้วที่มีอายุของร้านยืนยาวขนาดนี้</p>
-          <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half">
-              <img src="2.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-            </div>
+        <div class="w3-row w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="2.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="กระเพาะปลาน้ำแดง" width="280" height="210">
+          </div>
         </div>
       </div>
 
@@ -73,9 +155,9 @@ body, html {
         <h4>ผัดไทกุ้งสด</h4><br>
         <hr class="w3-clear">
         <p>เส้นผัดไทที่เหนียวนุ่มคลุกเคล้ากับเครื่องปรุงที่เข้มข้น กุ้งตัวใหญ่ที่ดึงดูดสายตาผู้กิน และความประทับใจของรสชาติดั้งเดิมที่ไม่ได้หายไป</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="5.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="5.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ผัดไทกุ้งสด" width="280" height="210">
           </div>
         </div>
       </div>
@@ -84,9 +166,9 @@ body, html {
         <h4>ผัดไทวุ้นเส้นกุ้งสด</h4><br>
         <hr class="w3-clear">
         <p>อีกตัวเลือกสำหรับคนชอบกินวุ้นเส้นแต่อยากกินผัดไท เส้นวุ่นเส้นนุ่มๆเครื่องปรุงแน่นๆ กุ้งสดที่สดมากจนรับรู้ได้ถึงความหวานของเนื้อกุ้งที่แท้จริง</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="4.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="4.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ผัดไทวุ้นเส้นกุ้งสด" width="280" height="210">
           </div>
         </div>
       </div>
@@ -95,9 +177,9 @@ body, html {
         <h4>ผัดไทไม่ใส่เส้นกุ้งสด</h4><br>
         <hr class="w3-clear">
         <p>แด่คนที่ไม่ชอบเส้น แต่อยากกินผัดไท ตอบโจทย์มาก เมนูนี้ชวนชิม เพราะเครื่องปรุงแน่นสุดเพราะไม่ต้องมีเส้นอะไรมาทำให้เครื่องดรอปลง กินคู่กับกุ้งแล้วยิ่งดีต่อใจไปอีก รสชาติดีๆแบบนี้ เราอยากให้คุณไปลองชิมดู</p>
-        <div class="w3-row-padding" style="margin:0 -16px">
-          <div class="w3-half">
-            <img src="3.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="3.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="ผัดไทไม่ใส่เส้นกุ้งสด" width="280" height="210">
           </div>
         </div>
       </div>
@@ -106,12 +188,12 @@ body, html {
         <h4>เครื่องดื่ม</h4><br>
         <hr class="w3-clear">
         <p>น้ำที่นี่มีความครีเอท แม้กระทั่งน้ำเปล่ายังเป็นยี่ห้อของตัวเองเลย น้ำที่ลองสั่งมาดื่มคือน้ำเสาวรส น้ำผลไม้อื่นๆก็มี น้ำทั้งหมดนั้นก็เป็นน้ำของยี่ห้อตัวเองทั้งสิ้น มั่นใจได้เลยว่าคั้นสดและปลอดภัย แถมรสชาติถูกปากแน่นอน</p>
-          <div class="w3-row-padding" style="margin:0 -16px">
-            <div class="w3-half">
-              <img src="6.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-            </div>
-            <div class="w3-half">
-              <img src="7.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+        <div class="w3-row  w3-row-padding" style="margin:0 -16px">
+          <div class="w3-quarter w3-center w3-half">
+            <img src="6.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="เครื่องดื่ม" width="280" height="210">
+          </div>
+          <div class="w3-quarter w3-center w3-half">
+            <img src="7.jpg" class="w3-margin-bottom" style="width:100%" onclick="onClick(this)" alt="น้ำเสาวรส" width="280" height="210">
           </div>
         </div>
       </div>
@@ -134,6 +216,19 @@ body, html {
       </div>
       <br>
 
+      <div class="w3-card-2 w3-round w3-white w3-center">
+              <div class="w3-container">
+                <p>Location</p>
+                <div class="w3-row w3-row-padding" style="margin:0 -10px">
+                  <div class="w3-quarter w3-half">
+                    <img src="9.png" class="w3-container"  onclick="onClick(this)" alt="Location" width="300" height="220">
+                  </div>
+                </div>
+                </div>
+              </div>
+
+            <br>
+
 
     <!-- End Right Column -->
     </div>
@@ -144,31 +239,38 @@ body, html {
 <!-- End Page Container -->
 </div>
 <br>
+<!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
 
+  <script>
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+      }
+  }
+  </script>
 
 <script>
-// Accordion
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-        x.previousElementSibling.className += " w3-theme-d1";
-    } else {
-        x.className = x.className.replace("w3-show", "");
-        x.previousElementSibling.className =
-        x.previousElementSibling.className.replace(" w3-theme-d1", "");
-    }
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
 }
 
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
 </script>
 
 </body>
